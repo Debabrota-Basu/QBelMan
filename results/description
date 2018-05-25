@@ -1,0 +1,1 @@
+The result folder contains the images of the queue regret vs. time steps in '.pdf' format, and the average queue regret and standard deviation of queue regret in '.npy' format.
