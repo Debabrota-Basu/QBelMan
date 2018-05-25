@@ -1,4 +1,5 @@
 # QBelMan
+
 QBelMan is a repository to simulate several algorithms for queueing bandit problems, like Thompson sampling (ThS) [2], UCB [3], BelMan [1], QBelMan, Q-UCB[4], and Q-ThS[4]. 
 The queueing bandit problem tries to match the queues and servers, with unknown arrival and service rates, in order to achive minimum queue length in hold.
 
@@ -8,3 +9,10 @@ References:
 3. Auer, P., Cesa-Bianchi, N. and Fischer, P., 2002. Finite-time analysis of the multiarmed bandit problem. Machine learning, 47(2-3), pp.235-256. (URL: https://link.springer.com/content/pdf/10.1023/A:1013689704352.pdf)
 4. Krishnasamy, S., Sen, R., Johari, R. and Shakkottai, S., 2016. Regret of queueing bandits. In Advances in Neural Information Processing Systems (pp. 1669-1677). (URL: http://papers.nips.cc/paper/6370-regret-of-queueing-bandits.pdf)
 5. Basu, D., Pedrielli, G., Senellart, P., and Bressan, S., 2018. Belman in queue: An information geometric approach to queueing bandits with general distributions.. Working paper.
+
+Getting started: 
+1. Clone the repository to your PC.
+2. Check dependencies:  Python>=2.6, numpy, scipy, and multiprocessing.
+These packages are available in most of the standard python installations.
+3. Open the 'demo.py'. Input your desired problem setup and algorithm.
+4. Run.
